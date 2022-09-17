@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Homework3 shopping-cart</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="menu-center">
+            <a href="#">ABOUT US</a>
+            <a href="#">PASSCARD</a>
+            <a href="#">PROFILE</a>
+        </div>
+        <div class="menu-right">
+            <div>
+                <img class="icon-search" src="./img/search-icon.png" alt="">
+            </div>
+            <div>
+                <img class="icon-cart" src="./img/cart-icon.png" alt="">
+            </div>
+            <a href="">LOGIN</a>
+            <a href="">SIGN UP</a>
+        </div>
+    </header>
+    <main>
+        <h2>My Cart</h2>
+        <div class="container">
+            <div class="box-left">
+                <div class="card">
+                    <img class="icon-delete" src="./img/icon-delete.png" />
+                    <img class="item-cart" src="./img/google-doc.png" />
+                    <div class="box-info">
+                        <h2 class="item-name">Google Docs</h2>
+                        <div class="box-level">
+                            <div class="circle-green"></div>
+                            <div class="circle-gray"></div>
+                            <div class="circle-gray"></div>
+                            <select name="level">
+                                <option value="LV1">LV 1</option>
+                                <option value="LV2">LV 2</option>
+                                <option value="LV3">LV 3</option>
+                            </select>
+                        </div>
+                        <p class="item-price">THB 150</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="icon-delete" src="./img/icon-delete.png">
+                    <img class="item-cart" src="./img/google-slide.png">
+                    <div class="box-info">
+                        <h2 class="item-name">Google Slides</h2>
+                        <div class="box-level">
+                            <div class="circle-green"></div>
+                            <div class="circle-green "></div>
+                            <div class="circle-green "></div>
+                            <div class="circle-gray "></div>
+                            <select name="level">
+                                <option value="LV1">LV 1</option>
+                                <option value="LV2">LV 2</option>
+                                <option value="LV3">LV 3</option>
+                            </select>
+                        </div>
+                        <p class="item-price">THB 150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-right">
+                <span class="order-info">Order Info</span>
+                <div class="box-subtotal">
+                    <span class="sub-total">Subtotal</span>
+                    <span class="total-price">THB 300</span>
+                </div>
+                <div class="promotion">
+                    <div class="box-coupon">
+                        <img class="icon-coupon" src="./img/coupon.png">
+                    </div>
+                    <input class="text-coupon" type="text" placeholder="Promotion code">
+                    <button class="apply">APPLY</button>
+                </div>
+                <br />
+                <div class="total">
+                    <span>Total payment</span>
+                    <span class="payment">THB 300</span>
+                </div>
+                <button class="checkout">LOG IN TO CHECKOUT</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

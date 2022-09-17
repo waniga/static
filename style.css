@@ -1,0 +1,219 @@
+header {
+    height         : 72px;
+    width          : 1120px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    margin-left    : auto;
+    margin-right   : auto;
+}
+
+a {
+    text-decoration: none;
+    color          : black;
+}
+
+.logo {
+    background-image: url("./img/logo.png");
+    background-size : cover;
+    width           : 189px;
+    height          : 32px;
+}
+
+.menu-center a,
+.menu-right a {
+    margin-right: 20px;
+}
+
+.menu-right {
+    display    : flex;
+    align-items: center;
+}
+
+.icon-search {
+    width     : 24px;
+    margin-top: 4px;
+}
+
+.icon-cart {
+    width : 32px;
+    margin: 24px;
+}
+
+main {
+    width          : 1120px;
+    display        : flex;
+    flex-direction : column;
+    align-items    : flex-start;
+    justify-content: space-between;
+    margin-left    : auto;
+    margin-right   : auto;
+}
+
+.container {
+    display: flex;
+    width  : 100%;
+}
+
+.box-left {
+    width: 50%;
+}
+
+.card {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    box-shadow      : 0px 4px 160px rgb(0 0 0 / 5%);
+    position        : relative;
+    min-width       : 0;
+    word-wrap       : break-word;
+    background-color: white;
+    background-clip : border-box;
+    border          : 2px solid rgba(0, 0, 0, .125);
+    border-radius   : 16px;
+    padding         : 28px;
+    margin-bottom   : 15px;
+}
+
+.icon-delete {
+    padding-right: 14px;
+}
+
+.item-cart {
+    width: 160px;
+}
+
+.box-info {
+    width      : 50%;
+    margin-left: 21px;
+}
+
+.item-name {
+    font-size: 24px;
+    color    : #212E4B;
+}
+
+.box-level {
+    display        : flex;
+    justify-content: space-between;
+    width          : 120px;
+}
+
+.circle-gray {
+    background-color: #E7F3FE;
+    border-radius   : 16px;
+    width           : 16px;
+    height          : 16px;
+}
+
+.circle-green {
+    background-color: #00DBB6;
+    border-radius   : 16px;
+    width           : 16px;
+    height          : 16px;
+}
+
+.item-price {
+    font-size: 20px;
+    color    : #415984;
+}
+
+.box-right {
+    width           : 50%;
+    box-shadow      : 0px 4px 160px rgb(0 0 0 / 5%);
+    display         : flex;
+    flex-direction  : column;
+    word-wrap       : break-word;
+    background-color: white;
+    border          : 2px solid rgba(0, 0, 0, .125);
+    border-radius   : 16px;
+    padding         : 28px;
+    margin-left     : 15px;
+    align-self      : start;
+}
+
+.order-info {
+    font-size  : 24px;
+    line-height: 32px;
+    color      : #212E4B;
+    font-weight: bold;
+}
+
+.box-subtotal,
+.promotion,
+.total {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.box-subtotal {
+    margin-bottom: 20px;
+}
+
+.sub-total {
+    font-size  : 20px;
+    line-height: 32px;
+    color      : #7A89A6;
+    margin-top : 21px;
+}
+
+.total-price {
+    font-size  : 20px;
+    line-height: 32px;
+    text-align : right;
+    color      : #415984;
+    margin-top : 21px;
+}
+
+.promotion {
+    height: 40px;
+}
+
+.box-coupon {
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+}
+
+.icon-coupon {
+    width : 20px;
+    height: 16px;
+}
+
+.text-coupon {
+    height       : 48px;
+    background   : #FFFFFF;
+    border       : 1px solid #E0E0E0;
+    box-sizing   : border-box;
+    border-radius: 4px;
+    font-size    : 14px;
+    line-height  : 24px;
+    display      : flex;
+    align-items  : center;
+    color        : #9E9E9E;
+    width        : 58%;
+}
+
+.apply {
+    width           : 33%;
+    border-radius   : 16px;
+    border          : 1px solid #59C4AE;
+    background-color: white;
+}
+
+.total {
+    margin-top: 40px;
+}
+
+.payment {
+    font-size: 32px;
+    color    : #59C4AE;
+}
+
+.checkout {
+    border-radius   : 16px;
+    height          : 40px;
+    background-color: #59C4AE;
+    border          : 1px solid #59C4AE;
+    margin-top      : 22px;
+}
